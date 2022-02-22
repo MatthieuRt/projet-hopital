@@ -7,18 +7,22 @@
 }
 
 #block1 {
-    margin-left: 450px;
+    position: absolute; 
+    top:130px; 
+    left:400px;
 }
 
 #block2 {
-    margin-left: 680px;
-    margin-top: -64px;
+    position: absolute;
+    top:130px; 
+    left:630px;
     
 }
 
 button {
-      margin-left: 910px;
-      margin-top: -74px;
+      position: absolute;
+      top:150px; 
+      left:850px; 
 }
 
 #tab1 {
@@ -27,6 +31,19 @@ button {
 }
 
 #tableau {
+    position: absolute;
     width: 700px;
-    margin-left: 300px;
+    top:200px; 
+    left:300px;
+     
+}
+
+#nav {
+    background-color: green;
+}
+
+h1 {
+    position:absolute;
+    top:50px;
+    left:500px;
 }

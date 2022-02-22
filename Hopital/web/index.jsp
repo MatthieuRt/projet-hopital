@@ -15,10 +15,13 @@
     </head>
     <body>
         
-        
-        
-        
-         <p class="text-center">Liste des Patients</p>
+      <nav id="nav" class="navbar navbar-default navbar-fixed-top" style="width: 100%;">
+       
+                <div class="navbar-header">
+                    <p>Hopital</p>
+                </div>
+      </nav>    
+         <h1>Liste des Patients</h1>
         
          <form action="recherche" method="POST" >
 
