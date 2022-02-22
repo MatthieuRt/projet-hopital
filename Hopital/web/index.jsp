@@ -48,7 +48,25 @@
          <button type="submit" class="btn btn-primary">Chercher</button>
          </form>
         
-         <a href="Ajouter.jsp">Ajout patient</a>
+    <table id="tableau" class="table table-bordered"  border="1" cellspacing="0" cellpadding="10px" height="">
+    <tr id="tab1">
+       <th>Nom et Préom(s)</th>
+       <th>Date de naissance</th>
+       <th>Docteur traitant</th>
+       <th>Numéro de Chambre</th>
+     <tr>
+    <tr>
+
+        <td></td>
+	<td></td>
+        <td></td>
+	<td></td>
+        
+    </tr>
+    </table>
+        
+         
+          <a href="Ajouter.jsp">Ajout patient</a>
           <script src="assets/js/jquery.js"></script>
           <script src="assets/js/bootstrap.min.js"></script>
     </body>

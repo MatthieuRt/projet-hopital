@@ -7,16 +7,26 @@
 }
 
 #block1 {
-    margin-left: 550px;
+    margin-left: 450px;
 }
 
 #block2 {
-    margin-left: 780px;
+    margin-left: 680px;
     margin-top: -64px;
     
 }
 
 button {
-      margin-left: 1010px;
+      margin-left: 910px;
       margin-top: -74px;
+}
+
+#tab1 {
+    background-color: black;
+    color:gray;
+}
+
+#tableau {
+    width: 700px;
+    margin-left: 300px;
 }
