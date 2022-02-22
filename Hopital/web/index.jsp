@@ -69,7 +69,8 @@
     </table>
         
          
-          <a href="Ajouter.jsp">Ajout patient</a>
+         <p id="ajout"><a href="Ajouter.jsp">Ajouter un patient</a></p>
+          
           <script src="assets/js/jquery.js"></script>
           <script src="assets/js/bootstrap.min.js"></script>
     </body>
