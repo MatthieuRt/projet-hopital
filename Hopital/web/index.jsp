@@ -11,29 +11,35 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link rel="stylesheet" href="assets/css/bootstrap.css"> 
+        <link rel="stylesheet" href="assets/style/index.css"> 
     </head>
     <body>
+        
+        
+        
+        
          <p class="text-center">Liste des Patients</p>
         
          <form action="recherche" method="POST" >
 
-          <p>
+          <p id="block1">
+              
               Docteur :
 
-              <select name="docteur" class="form-control" required>
+              <select  name="docteur" class="form-control" required>
    
-                 <option value="">docteur</option>
+                 <option  value="">docteur</option>
 
               </select>
 
           </p>
           
-             <p>
+             <p id="block2">
               Numéro de chambre :
 
-              <select name="numero" class="form-control" required>
+              <select  name="numero" class="form-control" required>
    
-                 <option value="">numero</option>
+                 <option  value="">numero</option>
 
               </select>
 
@@ -43,7 +49,7 @@
          </form>
         
          <a href="Ajouter.jsp">Ajout patient</a>
-          <script src="/assets/js/jquery.js"></script>
+          <script src="assets/js/jquery.js"></script>
           <script src="assets/js/bootstrap.min.js"></script>
     </body>
 </html>

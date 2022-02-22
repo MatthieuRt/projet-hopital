@@ -1,0 +1,22 @@
+#block1 select {
+    width:220px;
+}
+
+#block2 select {
+    width:220px; 
+}
+
+#block1 {
+    margin-left: 550px;
+}
+
+#block2 {
+    margin-left: 780px;
+    margin-top: -64px;
+    
+}
+
+button {
+      margin-left: 1010px;
+      margin-top: -74px;
+}
