@@ -1,0 +1,62 @@
+#block1 select {
+    width:220px;
+}
+
+#block2 select {
+    width:220px; 
+}
+
+#block1 {
+    position: absolute; 
+    top:130px; 
+    left:400px;
+}
+
+#block2 {
+    position: absolute;
+    top:130px; 
+    left:630px;
+    
+}
+
+button {
+      position: absolute;
+      top:150px; 
+      left:860px; 
+}
+
+#tab1 {
+    background-color: black;
+    color:gray;
+}
+
+#tableau {
+    position: absolute;
+    width: 700px;
+    top:200px; 
+    left:300px;
+     
+}
+
+#nav {
+    background-color: blue;
+}
+
+h1 {
+    position:absolute;
+    top:50px;
+    left:500px;
+}
+
+#ajout {
+    position:absolute;
+    font-size:30px;
+    top:550px;
+}
+
+#nav p {
+    position:absolute;
+    font-size: 30px;
+    color:white;
+    left:280px;
+}

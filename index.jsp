@@ -64,7 +64,7 @@
 
     %>
     <tr>
-        <td><% out.println(patient[i].get);%></td>
+        <td><% out.println(patient[i].getNomPrenom());%></td>
     	<td><% out.println(patient[i].get);%></td>
         <td><% out.println(patient[i].get);%></td>
 	    <td><% out.println(patient[i].get);%></td>

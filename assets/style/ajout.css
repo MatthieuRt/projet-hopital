@@ -1,0 +1,44 @@
+#p1 {
+    position: absolute;
+    font-size: 30px;
+    color:blue;
+    top:20px;
+    left:540px;
+    
+}
+
+#form {
+    position: absolute;
+    left:470px;
+    top:100px;
+}
+
+button {
+    position:absolute;
+    left:155px;
+    top:-5px;
+}
+
+#nom {
+    width:400px;
+}
+
+#adresse {
+    width:400px;
+}
+
+#date1 {
+    width:400px;
+}
+
+#medecin {
+    width:400px;
+}
+
+#chambre {
+    width:400px;
+}
+
+#date2 {
+    width:400px;
+}
