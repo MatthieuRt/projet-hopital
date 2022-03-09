@@ -1,5 +1,9 @@
 package classes;
 
+
+import java.sql.*;
+import java.util.ArrayList;
+
 public class Facture{
     int idFacture;
     Patient idpatient; 

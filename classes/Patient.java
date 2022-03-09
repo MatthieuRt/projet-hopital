@@ -5,6 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import java.sql.*;
+import java.util.ArrayList;
+
 public class Patient{
     int idPatient;
     String nomPrenom;
@@ -66,7 +69,7 @@ public class Patient{
     }
 
 
-    public void insertPatient(String nomPrenom, String dateDeNaissance,String genre , String adresse, String dateNaissance){
+    public void insertPatient(String nomPrenom, String dateDeNaissance,String genre , String adresse, String dateNaissance) throws Exception{
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection c = null;
 		Statement  stmt = null;
@@ -87,7 +90,7 @@ public class Patient{
 			}
 		}
     }
-    public ArrayList<Patient> getPatient(){
+    public ArrayList<Patient> getPatient() throws Exception{
         ArrayList<Patient> ret = new ArrayList<Patient>();
         try {
             try {
@@ -116,7 +119,7 @@ public class Patient{
 		}
         return ret;
     }
-    public ArrayList<Patient> getPatient(int idChambre, String dateEntree ){
+    public ArrayList<Patient> getPatient(int idChambre, String dateEntree ) throws Exception{
         ArrayList<Patient> ret = new ArrayList<Patient>();
         try {
             try {

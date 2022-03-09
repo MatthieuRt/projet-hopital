@@ -7,6 +7,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+
+import java.sql.*;
+import java.util.ArrayList;
+
 public class Sejour {
 
 	private static final String nomBase = "GestionEcole";
@@ -83,7 +87,7 @@ public class Sejour {
 
 
 
-    public ArrayList<Sejour> getSejours(int idPatient){
+    public ArrayList<Sejour> getSejours(int idPatient) throws Exception{
     	ArrayList<Sejour> ret = new ArrayList<Sejour>();
     	try {
             try {
@@ -114,7 +118,7 @@ public class Sejour {
     	return ret;
     }
     
-    public int getTotalAPayer(int idSejour) {
+    public int getTotalAPayer(int idSejour) throws Exception{
     	int ret = 0;
     	try {
             try {
@@ -138,7 +142,7 @@ public class Sejour {
     	return ret;
     }
     
-    public int getResteAPayer(int idSejour) {
+    public int getResteAPayer(int idSejour) throws Exception {
     	int ret = 0;
     	try {
             try {
@@ -163,7 +167,7 @@ public class Sejour {
     }
     
 
-	public void payer(int idSejour,int somme) {
+	public void payer(int idSejour,int somme) throws Exception{
 		try {
 			try {
 				Class.forName("org.postgresql.Driver");
@@ -182,7 +186,7 @@ public class Sejour {
 			e.printStackTrace();
 		}   
 	}
-	public void attribuer(int idPatient, int idChambre ){
+	public void attribuer(int idPatient, int idChambre ) throws Exception{
         Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection c = null;
 		Statement  stmt = null;

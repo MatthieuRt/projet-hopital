@@ -7,15 +7,18 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Vector;
 
+import java.sql.*;
+import java.util.ArrayList;
+
 public class Docteur {
     int idDocteur;
     String nomPrenom;
     int idCategorieDocteur;
     
-    public Docteur(int idDocteur, String nomPrenom, int categorie) {
+    public Docteur(int idDocteur, String nomPrenom, int idCategorieDocteur) {
         this.idDocteur = idDocteur;
         this.nomPrenom = nomPrenom;
-        this.categorie = categorie;
+        this.idCategorieDocteur = idCategorieDocteur;
     }
 
     public ArrayList<Docteur> getDocteurs(){

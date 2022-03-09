@@ -4,6 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+
+
 
 public class Prestation {
     int idPrestation;
@@ -92,7 +96,7 @@ public class Prestation {
     }
 
 
-	public Prestation getPrestation(int idDocteur ){
+	public ArrayList<Prestation> getPrestation(int idDocteur ){
 		ArrayList<Prestation> ret = new ArrayList<Prestation>();
         try {
             try {

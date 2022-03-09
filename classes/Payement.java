@@ -1,5 +1,9 @@
 package classes;
 
+
+import java.sql.*;
+import java.util.ArrayList;
+
 public class Payement {
     int idPayement;
     int idSejour;
@@ -9,7 +13,7 @@ public class Payement {
         this.idSejour = idSejour;
         this.somme = somme;
     }    
-    public void payer (int idSejour, double somme ){
+    public void payer (int idSejour, double somme ) throws Exception{
         Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection c = null;
 		Statement  stmt = null;
